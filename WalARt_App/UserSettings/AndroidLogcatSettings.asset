@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "LMG900UM16364974",
         "name": "com.DefaultNameInc.WalARt_App",
-        "processId": 10274,
+        "processId": 9946,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -25,6 +25,120 @@
             "name": "com.DefaultNameInc.WalARt_App",
             "processId": 10274,
             "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 2314,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 4735,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 31613,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 32483,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 726,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 1408,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 2394,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 3066,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 4462,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 6232,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 6750,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 7158,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 8836,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 9443,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 9946,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.0.19:5555",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 3974,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.0.19:5555",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 5260,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.0.19:5555",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 5663,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.0.19:5555",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 6750,
+            "exited": false
         }
     ],
     "m_Tags": {
@@ -35,7 +149,7 @@
             },
             {
                 "m_Name": "No Filter",
-                "m_Selected": true
+                "m_Selected": false
             },
             {
                 "m_Name": "",
@@ -51,7 +165,7 @@
             },
             {
                 "m_Name": "Unity",
-                "m_Selected": false
+                "m_Selected": true
             },
             {
                 "m_Name": "CRASH",
