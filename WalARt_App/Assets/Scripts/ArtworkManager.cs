@@ -20,7 +20,8 @@ public class ArtworkManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.artwork = new Artwork("ArtSprites/stonks", 0.625, 0.85);
+        // this.artwork = new Artwork("ArtSprites/stonks", 0.625, 0.85);
+        this.artwork = ViewingArt.Art;
 
 
         //x, y, x

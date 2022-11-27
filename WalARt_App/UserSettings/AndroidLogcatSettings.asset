@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "LMG900UM16364974",
         "name": "com.DefaultNameInc.WalARt_App",
-        "processId": 22777,
+        "processId": 26764,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -126,6 +126,12 @@
             "deviceId": "LMG900UM16364974",
             "name": "com.DefaultNameInc.WalARt_App",
             "processId": 22777,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 26764,
             "exited": false
         },
         {
