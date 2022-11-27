@@ -26,7 +26,7 @@ public class ArtworkManager : MonoBehaviour
         //x, y, x
         this.artBase.transform.localScale = new Vector3((float)this.artwork.Width, (float)this.artwork.Height, 0.03f);
         this.artSpriteRenderer.sprite = Resources.Load<Sprite>(this.artwork.Image);
-        this.artSpriteRenderer.size = new Vector2((float)this.artwork.Width, (float)this.artwork.Height);
+        this.artSpriteRenderer.size = new Vector2(1.0f, 1.0f);
 
         this.artBase.SetActive(false);
     }

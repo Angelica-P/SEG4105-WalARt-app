@@ -5,6 +5,12 @@ using UnityEngine;
 public class Artwork
 {
 
+    /*
+    Imported images need to be put in the Resources/ArtSprites folder.
+    They need their texture type set to "Sprite(2D and UI)".
+    The image string should be of the form "ArtSprites/stonks" with no
+    file ending such as .png or .jpg"
+    */
     private string image;
     public string Image
     {
