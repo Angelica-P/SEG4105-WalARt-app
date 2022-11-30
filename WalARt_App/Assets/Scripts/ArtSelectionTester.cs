@@ -18,6 +18,10 @@ public class ArtSelectionTester : MonoBehaviour
         
     }
 
+    public void BuyArt(){
+        Application.OpenURL("http://unity3d.com/");
+    }
+
     public void OnDefaultSelect()
     {
         ViewingArt.Art =  new Artwork("../TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg", "Amogus", "Unknown",0.625, 0.85);
