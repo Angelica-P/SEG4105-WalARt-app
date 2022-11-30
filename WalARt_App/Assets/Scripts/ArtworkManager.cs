@@ -20,6 +20,10 @@ public class ArtworkManager : MonoBehaviour
 
     public GameObject rotationIndicator;
 
+    public GameObject controlPanel;
+
+    public GameObject prePlacementText;
+
     private Artwork artwork;
 
     private bool isArtworkPlaced = false;
@@ -34,7 +38,6 @@ public class ArtworkManager : MonoBehaviour
     private bool isRotateCW = false;
     private bool isRotateCCW = false;
 
-    //TODO: x and y axis do not rotate with painting
     //TODO: message that says when trying to detect walls, then make controls appear once placed
     //TODO: add back button
 
@@ -60,6 +63,8 @@ public class ArtworkManager : MonoBehaviour
         this.zAxis.SetActive(false);
         this.rotationIndicator.SetActive(false);
         this.artBase.SetActive(false);
+
+        this.controlPanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -82,6 +87,8 @@ public class ArtworkManager : MonoBehaviour
                 this.yAxis.SetActive(false);
                 this.zAxis.SetActive(false);
                 this.rotationIndicator.SetActive(false);
+                this.prePlacementText.SetActive(false);
+                this.controlPanel.SetActive(true);
 
                 this.isArtworkPlaced = true;
                 Debug.Log("artwork placed");
