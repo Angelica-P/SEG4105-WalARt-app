@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.SceneManagement;
 
 public class ArtworkManager : MonoBehaviour
 {
@@ -20,6 +21,10 @@ public class ArtworkManager : MonoBehaviour
 
     public GameObject rotationIndicator;
 
+    public GameObject controlPanel;
+
+    public GameObject prePlacementText;
+
     private Artwork artwork;
 
     private bool isArtworkPlaced = false;
@@ -34,7 +39,6 @@ public class ArtworkManager : MonoBehaviour
     private bool isRotateCW = false;
     private bool isRotateCCW = false;
 
-    //TODO: x and y axis do not rotate with painting
     //TODO: message that says when trying to detect walls, then make controls appear once placed
     //TODO: add back button
 
@@ -42,9 +46,7 @@ public class ArtworkManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // this.artwork = new Artwork("ArtSprites/stonks", 0.625, 0.85);
         this.artwork = ViewingArt.Art;
-
 
         //x, y, x
         this.artBase.transform.localScale = new Vector3((float)this.artwork.Width, (float)this.artwork.Height, 0.03f);
@@ -60,6 +62,8 @@ public class ArtworkManager : MonoBehaviour
         this.zAxis.SetActive(false);
         this.rotationIndicator.SetActive(false);
         this.artBase.SetActive(false);
+
+        this.controlPanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -82,6 +86,14 @@ public class ArtworkManager : MonoBehaviour
                 this.yAxis.SetActive(false);
                 this.zAxis.SetActive(false);
                 this.rotationIndicator.SetActive(false);
+                this.prePlacementText.SetActive(false);
+                this.controlPanel.SetActive(true);
+
+                Animator controlPanelAnimator = this.controlPanel.GetComponent<Animator>();
+                if (controlPanelAnimator != null)
+                {
+                    controlPanelAnimator.SetBool("openController", true);
+                }
 
                 this.isArtworkPlaced = true;
                 Debug.Log("artwork placed");
@@ -171,6 +183,11 @@ public class ArtworkManager : MonoBehaviour
 
             // Debug.Log("parent: "+this.artBase.activeInHierarchy);
         } 
+    }
+
+    public void OnBackToCatalogClicked()
+    {
+        SceneManager.LoadScene("Scenes/CatalogTest");
     }
 
     public void MoveUpPressed()
