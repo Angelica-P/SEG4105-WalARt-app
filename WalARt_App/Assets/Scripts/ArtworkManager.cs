@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.SceneManagement;
 
 public class ArtworkManager : MonoBehaviour
 {
@@ -45,9 +46,7 @@ public class ArtworkManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // this.artwork = new Artwork("ArtSprites/stonks", 0.625, 0.85);
         this.artwork = ViewingArt.Art;
-
 
         //x, y, x
         this.artBase.transform.localScale = new Vector3((float)this.artwork.Width, (float)this.artwork.Height, 0.03f);
@@ -184,6 +183,11 @@ public class ArtworkManager : MonoBehaviour
 
             // Debug.Log("parent: "+this.artBase.activeInHierarchy);
         } 
+    }
+
+    public void OnBackToCatalogClicked()
+    {
+        SceneManager.LoadScene("Scenes/CatalogTest");
     }
 
     public void MoveUpPressed()
