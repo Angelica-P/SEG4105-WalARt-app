@@ -90,6 +90,12 @@ public class ArtworkManager : MonoBehaviour
                 this.prePlacementText.SetActive(false);
                 this.controlPanel.SetActive(true);
 
+                Animator controlPanelAnimator = this.controlPanel.GetComponent<Animator>();
+                if (controlPanelAnimator != null)
+                {
+                    controlPanelAnimator.SetBool("openController", true);
+                }
+
                 this.isArtworkPlaced = true;
                 Debug.Log("artwork placed");
             }

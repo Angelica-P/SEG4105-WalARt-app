@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "192.168.0.19:5555",
+    "m_SelectedDeviceId": "LMG900UM16364974",
     "m_SelectedPackage": {
-        "deviceId": "192.168.0.19:5555",
+        "deviceId": "LMG900UM16364974",
         "name": "com.DefaultNameInc.WalARt_App",
-        "processId": 18669,
+        "processId": 20017,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -258,6 +258,12 @@
             "deviceId": "LMG900UM16364974",
             "name": "com.DefaultNameInc.WalARt_App",
             "processId": 7223,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 20017,
             "exited": false
         },
         {
