@@ -181,7 +181,7 @@ public class ArtworkManager : MonoBehaviour
 
     public void OnBackToCatalogClicked()
     {
-        SceneManager.LoadScene("Scenes/CatalogTest");
+        SceneManager.LoadScene("Scenes/Catalog");
     }
 
     public void MoveUpPressed()
