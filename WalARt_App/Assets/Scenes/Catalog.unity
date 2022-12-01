@@ -2181,6 +2181,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 381840140}
     m_Modifications:
+    - target: {fileID: 1654973981050743322, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 40023097}
+    - target: {fileID: 1654973981050743322, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyArt
+      objectReference: {fileID: 0}
     - target: {fileID: 3159658299261456066, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
