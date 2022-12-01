@@ -766,6 +766,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 381840140}
     m_Modifications:
+    - target: {fileID: 1779928911306264749, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 110b734332cdb17438c2676895adf129, type: 3}
     - target: {fileID: 3159658299261456066, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -853,6 +857,18 @@ PrefabInstance:
     - target: {fileID: 3925982116967546365, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
       propertyPath: m_Name
       value: Art Selection  (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219930528513594100, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_text
+      value: Landscape
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618579648602931483, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_text
+      value: 0.625m X 0.85m
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618579648602931483, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_fontSize
+      value: 33.7
       objectReference: {fileID: 0}
     - target: {fileID: 8675238040903650772, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1049,6 +1065,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 381840140}
     m_Modifications:
+    - target: {fileID: 1779928911306264749, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 8ed6308db5da227478212aa1b5affe2b, type: 3}
     - target: {fileID: 3159658299261456066, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1136,6 +1156,18 @@ PrefabInstance:
     - target: {fileID: 3925982116967546365, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
       propertyPath: m_Name
       value: Art Selection  (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219930528513594100, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_text
+      value: Puzzle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618579648602931483, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_text
+      value: 0.625m X 0.85m
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618579648602931483, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_fontSize
+      value: 33.7
       objectReference: {fileID: 0}
     - target: {fileID: 8675238040903650772, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1574,6 +1606,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 381840140}
     m_Modifications:
+    - target: {fileID: 1779928911306264749, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 6f2c92aaf9ffe82498615bc14bcc7b8d, type: 3}
     - target: {fileID: 3159658299261456066, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1661,6 +1697,22 @@ PrefabInstance:
     - target: {fileID: 3925982116967546365, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
       propertyPath: m_Name
       value: Art Selection  (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219930528513594100, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_text
+      value: Cloud
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219930528513594100, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_fontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618579648602931483, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_text
+      value: 0.625m X 0.85m
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618579648602931483, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_fontSize
+      value: 33.7
       objectReference: {fileID: 0}
     - target: {fileID: 8675238040903650772, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1806,6 +1858,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 381840140}
     m_Modifications:
+    - target: {fileID: 1779928911306264749, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 1201be0dd38c2714fbaf42329c7d51a7, type: 3}
     - target: {fileID: 3159658299261456066, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1893,6 +1949,18 @@ PrefabInstance:
     - target: {fileID: 3925982116967546365, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
       propertyPath: m_Name
       value: Art Selection  (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219930528513594100, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_text
+      value: Jupiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618579648602931483, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_text
+      value: 0.625m X 0.85m
+      objectReference: {fileID: 0}
+    - target: {fileID: 6618579648602931483, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
+      propertyPath: m_fontSize
+      value: 33.7
       objectReference: {fileID: 0}
     - target: {fileID: 8675238040903650772, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
