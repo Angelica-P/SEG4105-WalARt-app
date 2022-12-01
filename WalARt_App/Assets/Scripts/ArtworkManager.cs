@@ -39,9 +39,6 @@ public class ArtworkManager : MonoBehaviour
     private bool isRotateCW = false;
     private bool isRotateCCW = false;
 
-    //TODO: message that says when trying to detect walls, then make controls appear once placed
-    //TODO: add back button
-
 
     // Start is called before the first frame update
     void Start()
@@ -75,7 +72,6 @@ public class ArtworkManager : MonoBehaviour
             List<ARRaycastHit> hits = new List<ARRaycastHit>();
             this.raycastManager.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits);
 
-            Debug.Log("number of hits: "+hits.Count);
             if(hits.Count > 0)
             {
                 this.artBase.transform.position = hits[0].pose.position;
@@ -180,8 +176,6 @@ public class ArtworkManager : MonoBehaviour
             {
                 this.rotationIndicator.SetActive(false);
             }
-
-            // Debug.Log("parent: "+this.artBase.activeInHierarchy);
         } 
     }
 
