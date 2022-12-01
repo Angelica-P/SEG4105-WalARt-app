@@ -18,6 +18,20 @@ public class Artwork
         set => this.image = value;
     }
 
+    private string name;
+    public string Name
+    {
+        get => this.name;
+        set => this.name = value;
+    }
+
+    private string artist;
+    public string Artist
+    {
+        get => this.artist;
+        set => this.artist = value;
+    }
+
     private double height;
     public double Height
     {
@@ -32,9 +46,11 @@ public class Artwork
         set => this.width = value;
     }
 
-    public Artwork(string image, double height, double width)
+    public Artwork(string image, string artist, string name, double height, double width)
     {
         this.image = image;
+        this.artist = artist;
+        this.name = name;
         this.height = height;
         this.width = width;
     }
