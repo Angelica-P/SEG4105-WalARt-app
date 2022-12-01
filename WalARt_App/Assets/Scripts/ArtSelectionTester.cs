@@ -24,31 +24,46 @@ public class ArtSelectionTester : MonoBehaviour
         SceneManager.LoadScene("Scenes/ViewArt");
     }
 
-    public void BuyArt(){
-        Application.OpenURL("http://unity3d.com/");
-    }
-
-    public void OnDefaultSelect()
+    public void OnFlowerSelect()
     {
-        ViewingArt.Art =  new Artwork("../TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg", "Amogus", "Unknown",0.625, 0.85);
+        ViewingArt.Art =  new Artwork("ArtSprites/Flower", "Flower", "Unknown",0.625, 0.85);
         SceneManager.LoadScene("Scenes/ViewArt");
     }
 
-    public void OnAmogusSelect()
+    public void OnJupiterSelect()
     {
-        ViewingArt.Art =  new Artwork("ArtSprites/amogus", "Amogus", "Unknown",0.625, 0.85);
+        ViewingArt.Art =  new Artwork("ArtSprites/Jupiter", "Jupiter", "Unknown",0.625, 0.85);
         SceneManager.LoadScene("Scenes/ViewArt");
     }
 
-    public void OnStonksSelect()
+    public void OnKiteSelect()
     {
-        ViewingArt.Art =  new Artwork("ArtSprites/stonks", "Stonks", "Unknown",0.625, 0.85);
+        ViewingArt.Art =  new Artwork("ArtSprites/Kite", "Kite", "Unknown",0.625, 0.85);
         SceneManager.LoadScene("Scenes/ViewArt");
     }
 
-    public void OnThisIsntGeographySelect()
+    public void OnLandscapeSelect()
     {
-        ViewingArt.Art =  new Artwork("ArtSprites/this_isnt_geography","Geography", "Unknown", 0.96, 0.60);
+        ViewingArt.Art =  new Artwork("ArtSprites/Landscape", "Landspace", "Unknown",0.625, 0.85);
         SceneManager.LoadScene("Scenes/ViewArt");
     }
+
+    public void OnMuralSelect()
+    {
+        ViewingArt.Art =  new Artwork("ArtSprites/Mural", "Mural", "Unknown",0.625, 0.85);
+        SceneManager.LoadScene("Scenes/ViewArt");
+    }
+
+    public void OnPuzzleSelect()
+    {
+        ViewingArt.Art =  new Artwork("ArtSprites/Puzzle", "Puzzle", "Unknown",0.625, 0.85);
+        SceneManager.LoadScene("Scenes/ViewArt");
+    }
+
+    public void OnTigerSelect()
+    {
+        ViewingArt.Art =  new Artwork("ArtSprites/Tiger", "Tiger", "Unknown",0.625, 0.85);
+        SceneManager.LoadScene("Scenes/ViewArt");
+    }
+
 }
