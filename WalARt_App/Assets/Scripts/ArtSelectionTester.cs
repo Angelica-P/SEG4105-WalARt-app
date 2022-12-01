@@ -23,9 +23,9 @@ public class ArtSelectionTester : MonoBehaviour
         Application.OpenURL("https://www.artwrk.ca/holiday-gift-guide/");
     }
 
-    public void OnCloudSelect()
+    public void OnMoonSelect()
     {
-        ViewingArt.Art =  new Artwork("ArtSprites/Cloud", "Cloud", "Unknown",0.625, 0.85);
+        ViewingArt.Art =  new Artwork("ArtSprites/Moon", "Moon", "Unknown",0.625, 0.85);
         SceneManager.LoadScene("Scenes/ViewArt");
     }
 

@@ -2543,7 +2543,7 @@ PrefabInstance:
       objectReference: {fileID: 40023097}
     - target: {fileID: 8675238040903650772, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnCloudSelect
+      value: OnMoonSelect
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412e533dabd75b4498e97360bdea67c7, type: 3}
