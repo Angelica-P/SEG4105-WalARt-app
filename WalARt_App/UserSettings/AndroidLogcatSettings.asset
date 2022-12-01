@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "52100ca1fcb25447",
+    "m_SelectedDeviceId": "192.168.0.19:5555",
     "m_SelectedPackage": {
-        "deviceId": "52100ca1fcb25447",
+        "deviceId": "192.168.0.19:5555",
         "name": "com.DefaultNameInc.WalARt_App",
-        "processId": 12944,
+        "processId": 26658,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -261,6 +261,24 @@
             "exited": false
         },
         {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 20017,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 20729,
+            "exited": false
+        },
+        {
+            "deviceId": "LMG900UM16364974",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 21281,
+            "exited": false
+        },
+        {
             "deviceId": "192.168.0.19:5555",
             "name": "com.DefaultNameInc.WalARt_App",
             "processId": 3974,
@@ -291,9 +309,15 @@
             "exited": false
         },
         {
-            "deviceId": "52100ca1fcb25447",
+            "deviceId": "192.168.0.19:5555",
             "name": "com.DefaultNameInc.WalARt_App",
-            "processId": 12944,
+            "processId": 18669,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.0.19:5555",
+            "name": "com.DefaultNameInc.WalARt_App",
+            "processId": 26658,
             "exited": false
         }
     ],
