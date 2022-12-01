@@ -18,6 +18,11 @@ public class ArtSelectionTester : MonoBehaviour
 
     }
 
+
+    public void BuyArt(){
+        Application.OpenURL("https://www.artwrk.ca/holiday-gift-guide/");
+    }
+
     public void OnCloudSelect()
     {
         ViewingArt.Art =  new Artwork("ArtSprites/Cloud", "Cloud", "Unknown",0.625, 0.85);
