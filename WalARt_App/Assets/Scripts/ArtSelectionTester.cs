@@ -15,7 +15,13 @@ public class ArtSelectionTester : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    public void OnCloudSelect()
+    {
+        ViewingArt.Art =  new Artwork("ArtSprites/Cloud", "Cloud", "Unknown",0.625, 0.85);
+        SceneManager.LoadScene("Scenes/ViewArt");
     }
 
     public void OnDefaultSelect()
