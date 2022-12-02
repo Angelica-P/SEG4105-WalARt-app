@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ArtSelectionTester : MonoBehaviour
+public class CatalogManager : MonoBehaviour
 {
-    public GameObject artworks;
     // Start is called before the first frame update
     void Start()
     {
